@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myFunction() {
+            // fetch("http://localhost:5000/upload",
+            // {
+            //     headers: {
+            //     'Accept': 'application/json',
+            //     'Content-Type': 'application/json',
+            //     'Authorization':
+            //     "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNjY3OGU2MzAxNDdkZjI5ZTAxMjRkOSIsImVtYWlsIjoib21rYXIxMjNAZ2FtaWwuY29tIiwibmFtZSI6Ik9ta2FyIFBhdGlsIiwiaWF0IjoxNjUwOTczOTY2LCJleHAiOjE2NTA5Nzc1NjZ9.XMxad2TqDcMR7yhqkHqniQuOG2-cOSSzFE6zqvn7tSc",
+            //     },
+            //     method: "POST",
+            //     body: JSON.stringify({ 
+            //                             title: "prepare for exam",
+            //                             content: "Internal Exam",
+            //                             description: "Have 3 subjects = AOS,SPM,MBT",
+            //                             category: "PROFESSIONAL"
+            //                         })
+            // })
+            // .then((res)=>{ console.log(res) })
+            // .catch((res)=>{ console.log(res) })
+            console.log("hi")
+            }
+    </script>
+    <form method="post" action='/upload' enctype="multipart/form-data">
+        <input type="file" name="image"/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
