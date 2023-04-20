@@ -1,0 +1,23 @@
+{
+  "name": "codestepbystep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simpleAPI.js",
+  "scripts": {
+    "dev": "nodemon db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pratiksha-angularminds"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1"
+  }
+}
